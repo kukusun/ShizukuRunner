@@ -3,14 +3,6 @@ plugins {
 }
 
 android {
-    signingConfigs {
-        release {
-            storeFile file('D:\\ginkgo\\文件备份\\key.keystore')
-            storePassword 'wewewe'
-            keyPassword 'wewewe'
-            keyAlias 'key0'
-        }
-    }
     compileSdk 32
 
     defaultConfig {
